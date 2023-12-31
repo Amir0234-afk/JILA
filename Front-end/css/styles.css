@@ -17,52 +17,57 @@ button {
 
 /* MOBILE */
 @media screen and (max-width: 767px) {
-    /* HEADER */
 
+    /* CONTAINER */
 #wrapper {
     height: 100vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
 }
 
+    /* HEADER */
 #header {
-    width: 100vw;
-    height: 20vh;
+    width: 100%;
+    height: 10%;
     background-color: black;
 }
 
+
+/* CONTENT */
 #main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     background-color: #F3F4F6;
-    padding: 5em;
-    height: 60vh;
+    padding: 3em 0;
     text-align: center;
+    height: 55%;
 }
 
 #main img {
     width: 30%;
     height: auto;
-    margin-bottom: 1em;
 }
 
 #main h1 {
-    font-size: 3rem;
-    margin-bottom: 1em;
+    font-size: 2rem;
 }
 
 #main p {
-    width: 75%;
+    width: 70%;
     font-size: 2rem;
     line-height: 2.5rem;
+    color: #69727D;
 }
+
+/* FOOTER */
 
 #footer {
     box-sizing: border-box;
-    width: 100vw;
-    height: 20vh;
+    width: 100%;
+    height: 25%;
     padding: 1.5em 1.5em;
     background-color: black;
     display: flex;
