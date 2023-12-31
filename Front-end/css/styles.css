@@ -79,21 +79,16 @@ button {
 #footer .button-1 {
     margin-bottom: 1.5em;
     background-color: #6D31ED;
-}
-
-#footer .button-1 a {
     color: #F3F4F6;
     font-weight: 500;
+    cursor: pointer;
 }
+
 
 #footer .button-2 {
     background-color: #F3F4F6;
-}
-
-#footer .button-2 a {
     color: #6D31ED;
     font-weight: 500;
-
 }
 
 }
