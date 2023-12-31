@@ -26,8 +26,24 @@
     cursor: pointer;
 }
 
+#footer .button-1:hover {
+    margin-bottom: 1.5em;
+    background-color: #379AE6;
+    color: #F3F4F6;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
 
 #footer .button-2 {
+    background-color: #F3F4F6;
+    color: #379AE6;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#footer .button-2:hover {
     background-color: #F3F4F6;
     color: #379AE6;
     font-weight: 500;

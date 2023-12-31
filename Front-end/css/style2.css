@@ -25,6 +25,7 @@ input:focus {
 
 .close {
     cursor: pointer;
+    margin-left: 0.3em;
 }
 
 #header {
