@@ -56,8 +56,8 @@ button {
 
 #main p {
     width: 70%;
-    font-size: 1.7rem;
-    line-height: 2.5rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
     color: #69727D;
 }
 
@@ -67,7 +67,7 @@ button {
     box-sizing: border-box;
     width: 100%;
     height: 25%;
-    padding: 1.5em 1.5em 2.5em 1.5em;
+    padding: 1.5em 1.5em 3.5em 1.5em;
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -88,6 +88,7 @@ button {
 
 #footer .button-1 a {
     color: #F3F4F6;
+    font-weight: 500;
 }
 
 #footer .button-2 {
@@ -96,6 +97,8 @@ button {
 
 #footer .button-2 a {
     color: #6D31ED;
+    font-weight: 500;
+
 }
 
 }
