@@ -74,10 +74,13 @@ input:focus {
     margin-bottom: 1em;
 }
 
-#image {
-    justify-content: center;
-    display: flex;
+#main .password {
     margin-bottom: 1em;
+}
+
+#image {
+    display: flex;
+    justify-content: center;
 }
 
 #image img {
