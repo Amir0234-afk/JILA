@@ -28,8 +28,9 @@ button {
     /* HEADER */
 #header {
     width: 100%;
-    height: 15%;
+    height: 12%;
     background-color: black;
+    border-radius: 0 0 0.5em 0.5em;
 }
 
 
@@ -65,9 +66,10 @@ button {
 #footer {
     box-sizing: border-box;
     width: 100%;
-    height: 25%;
-    padding: 1em 1.5em 5em 1.5em;
+    height: 28%;
+    padding: 1em 1.5em 10em 1.5em;
     background-color: black;
+    border-radius: 0.5em 0.5em 0 0;
 }
 
 #footer button {
@@ -92,3 +94,6 @@ button {
 }
 
 }
+
+
+
