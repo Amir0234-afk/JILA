@@ -32,8 +32,6 @@ input:focus {
 }
 /* END CONTAINER */
 
-
-
 /* START CONTENT */
 #main {
     display: flex;
@@ -42,7 +40,7 @@ input:focus {
     align-items: center;
     background-color: #F3F4F6;
     text-align: center;
-    height: 60%;
+    height: 65%;
 }
 
 #main img {
