@@ -10,14 +10,14 @@
     /* HEADER */
 
 #wrapper {
-    height: 100vh;
+    height: 95vh;
     display: flex;
     flex-direction: column;
 }
 
 #header {
     width: 100vw;
-    height: 20vh;
+    height: 15vh;
     background-color: black;
 }
 
@@ -51,7 +51,7 @@
 #footer {
     box-sizing: border-box;
     width: 100vw;
-    height: 20vh;
+    height: 15vh;
     padding: 1em;
     background-color: black;
     display: flex;
