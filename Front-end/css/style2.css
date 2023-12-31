@@ -21,6 +21,20 @@ input:focus {
 
 /* END GENERAL */
 
+/* START HEADER */
+
+.close {
+    cursor: pointer;
+}
+
+#header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* END HEADER */
+
 /* START MOBILE */
 @media screen and (max-width: 767px) {
 
@@ -66,7 +80,7 @@ input:focus {
     padding: 1em 0em 1em 1em;
     width: 100%;
     border-radius: 2em;
-    border: 3px solid #BDC1CA;
+    border: 2px solid #BDC1CA;
     box-sizing: border-box;
 }
 
@@ -81,6 +95,7 @@ input:focus {
 #image {
     display: flex;
     justify-content: center;
+    margin-bottom: 1em;
 }
 
 #image img {
