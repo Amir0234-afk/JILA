@@ -7,6 +7,14 @@
     overflow-x: hidden;
 }
 
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+}
+
 /* MOBILE */
 @media screen and (max-width: 767px) {
     /* HEADER */
@@ -46,6 +54,7 @@
 }
 
 #main p {
+    width: 75%;
     font-size: 2rem;
     line-height: 2.5rem;
 }
@@ -54,26 +63,35 @@
     box-sizing: border-box;
     width: 100vw;
     height: 20vh;
-    padding: 5em 1.5em;
+    padding: 1.5em 1.5em;
     background-color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-self: center;
 }
 
 #footer button {
-    width: 99.9%;
+    width: 100%;
     border-radius: 2em;
     padding: 1em 2em;
 }
 
 #footer .button-1 {
-    margin-bottom: 0.5em;
+    margin-bottom: 1.5em;
+    background-color: #6D31ED;
 }
- 
+
+#footer .button-1 a {
+    color: #F3F4F6;
 }
 
+#footer .button-2 {
+    background-color: #F3F4F6;
+}
 
+#footer .button-2 a {
+    color: #6D31ED;
+}
 
-
+}
