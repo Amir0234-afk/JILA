@@ -3,6 +3,8 @@
 /* GENERAL */
 * {
     font-size: 1rem;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 /* MOBILE */
