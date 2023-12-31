@@ -50,12 +50,12 @@ button {
 }
 
 #main h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 #main p {
     width: 70%;
-    font-size: 1.5rem;
+    font-size: 1rem;
     line-height: 2rem;
     color: #69727D;
 }
@@ -66,7 +66,7 @@ button {
     box-sizing: border-box;
     width: 100%;
     height: 30%;
-    padding: 1em 1.5em 15em 1.5em;
+    padding: 1em 1.5em 10em 1.5em;
     background-color: black;
 }
 
