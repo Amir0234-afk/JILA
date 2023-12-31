@@ -1,0 +1,91 @@
+@import url('reset.css');
+
+/* START GENERAL */
+* {
+    font-size: 1rem;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+/* END GENERAL */
+
+/* START MOBILE */
+@media screen and (max-width: 767px) {
+
+    /* START CONTAINER */
+#wrapper {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #F3F4F6;
+}
+/* END CONTAINER */
+
+/* START CONTENT */
+
+#main{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 76%;
+    background-color: #F3F4F6;
+    padding: 2em 0 2em 0;
+}
+
+#main p {
+    text-align: left;
+    margin-bottom: 1em;
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+#main #inputs {
+    padding: 0 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+
+#main input {
+    padding: 1em 0em 1em 1em;
+    width: 100%;
+    border-radius: 2em;
+    border: 3px solid #BDC1CA;
+    box-sizing: border-box;
+}
+
+#main .username {
+    margin-bottom: 1em;
+}
+
+#image {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 3em;
+}
+
+#image img {
+    width: 30%;
+}
+
+
+
+/* END CONTENT */
+
+}
+/* END MOBILE */
