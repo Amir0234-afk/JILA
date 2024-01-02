@@ -4,38 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0", maximum-scale="1", user-scalable="no">
     <title>JILA</title>
-    <link rel="stylesheet" href="Front-end/css/header.css">
-    <link rel="stylesheet" href="Front-end/css/footer-1.css">
-    <link rel="stylesheet" href="Front-end/css/styles.css">
-    <link rel="stylesheet" href="Front-end/assets/font-awesome/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Front-end/css/style.css">
+    <style>
+
+        .container {
+            justify-content: center;
+        }
+
+        .container img {
+            max-width: 30%;
+            margin-bottom: 2em;
+        }
+
+        .container h1 {
+            margin-bottom: 0.5em;
+        }
+
+        .container p {
+            width: 45%;
+        }
+        
+    </style>
 </head>
 <body>
     <!-- START CONTAINER -->
     <div id="wrapper">
         <!-- START HEADER  -->
-        <div id="header">.</div>
+        <header class="header-simple">.</header>
         <!-- END HEADER -->
         <!-- START MAIN CONTENT -->
-        <div id="main">
+        <div class="container">
             <img src="Front-end/assets/image/mascot-1.png" alt="JILA">
             <h1>Jooyan Academy</h1>
             <p>The free, fun and effective way to learn a language</p>
         </div>
         <!-- END MAIN CONTENT -->
         <!-- START FOOTER -->
-        <div id="footer">
+        <footer class="footer">
             <a href="Front-end/Template/log-in.html">
-                <button class="button-1">
+                <button class="back-blue white">
                     GET STARTED
                 </button>
             </a>
 
             <a href="#">
-                <button class="button-2">
+                <button class="back-white blue">
                     I ALREADY HAVE AN ACCOUNT
                 </button>
             </a>
-        </div>
+        </footer>
         <!-- END FOOTER -->
     </div>
     <!-- END CONTAINER -->
