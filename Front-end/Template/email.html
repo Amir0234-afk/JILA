@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Log-in</title>
+    <title>Email</title>
     <link rel="stylesheet" href="../css/style.css">
     <style>
         header {
@@ -16,10 +16,8 @@
             cursor: pointer;
             margin-left: 0.3em;
         }
-
         .container {
             padding: 1em;
-            height: 30% !important;
         }
 
         #inputs {
@@ -28,7 +26,11 @@
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
-            box-sizing: border-box;
+            box-sizing: border-box; 
+        }
+
+        input {
+            border: none;
         }
 
         #inputs h2{
@@ -36,23 +38,23 @@
             margin-bottom: 0.6em;
         }
         
-        #image {
-            height: 40%;
-            box-sizing: border-box;
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 3em;
-        }
-        #image img {
-            max-width: 50%;
-        }
-
         .footer {
             height: 15% !important;
         }
 
+        footer button{
+            background-color: #fffffd !important;
+        }
+
+        #google {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        #img img {
+            width: 50%;
+        }
     </style>
 </head>
 <body>
@@ -69,25 +71,25 @@
         <!-- START MAIN CONTENT -->
         <div class="container">
             <div id="inputs">
-                <h2>Please Login</h2>
-                <input class="username border" type="text" placeholder="Username">
-                <input class="password border" type="password" placeholder="Password">
+                <h2>What is your Email?</h2>
+                <input class="email" type="email" placeholder="Email">
+                <input class="submit back-blue white" type="submit" placeholder="Continue">
             </div>
         </div>
-        <div id="image">
-            <img src="../assets/image/mascot-1.png" alt="mascot">
-        </div>
         <!-- END MAIN CONTENT -->
-        <!-- END CONTAINER -->
-            <!-- START FOOTER -->
-            <footer class="footer">
-                <a href="email.html">
-                    <button class="back-blue white">
-                    Login
-                    </button>
-                </a>
-            </footer>    
-            <!-- END FOOTER --> 
-    </div>
+        <footer class="footer">
+            <a href="email.html">
+                <button>
+                <div>
+                <div id="google"></div>
+                <div id="img">
+                    <img src="../assets/image/google.png" alt="google">
+                </div>
+                </div>
+                </button>
+                
+            </a>
+        <!-- END FOOTER -->
+    </>
 </body>
 </html>

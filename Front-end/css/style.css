@@ -38,6 +38,8 @@ button {
     margin-bottom: 1em;
     cursor: pointer;
     font-weight: 500;
+    display: flex;
+    justify-content: center;
 }
 
 input {
@@ -46,6 +48,9 @@ input {
     border-radius: 2em;
     padding: 1em 2em;
     margin-bottom: 1em;
+}
+
+.border {
     border: 2px solid #9095A0;
 }
 
