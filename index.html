@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0", maximum-scale="1", user-scalable="no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JILA</title>
     <link rel="stylesheet" href="Front-end/css/style.css">
     <style>
@@ -23,6 +23,12 @@
         .container p {
             width: 45%;
         }
+
+        #footer-elements a{
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+        }
         
     </style>
 </head>
@@ -41,17 +47,19 @@
         <!-- END MAIN CONTENT -->
         <!-- START FOOTER -->
         <footer class="footer">
-            <a href="Front-end/Template/email.html">
-                <button class="back-blue white">
-                    GET STARTED
-                </button>
-            </a>
-
-            <a href="Front-end/Template/log-in.html">
-                <button class="back-white blue">
-                    I ALREADY HAVE AN ACCOUNT
-                </button>
-            </a>
+            <div id="footer-elements">
+                <a href="Front-end/Template/email.html">
+                    <button class="back-blue white">
+                        GET STARTED
+                    </button>
+                </a>
+    
+                <a href="Front-end/Template/log-in.html">
+                    <button class="back-white blue">
+                        I ALREADY HAVE AN ACCOUNT
+                    </button>
+                </a>
+            </div>
         </footer>
         <!-- END FOOTER -->
     </div>
